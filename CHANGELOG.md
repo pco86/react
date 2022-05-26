@@ -1,5 +1,18 @@
 # @primer/components
 
+## 35.2.3
+
+### Patch Changes
+
+- [#2083](https://github.com/primer/react/pull/2083) [`ea69ccd6`](https://github.com/primer/react/commit/ea69ccd6b5255e70251889ffc2434e975a9c8184) Thanks [@ty-v1](https://github.com/ty-v1)! - Export new Dialog component from the `@primer/react/drafts` bundle:
+
+  ```diff
+  - import {Dialog} from '@primer/react/lib-esm/Dialog/Dialog'
+  + import {Dialog} from '@primer/react/drafts'
+  ```
+
+* [#2095](https://github.com/primer/react/pull/2095) [`db5e629c`](https://github.com/primer/react/commit/db5e629c667203728d4256d4b6b549b9d3962e9d) Thanks [@hectahertz](https://github.com/hectahertz)! - Communicate the SelectPanel multi-select capability to assistive technologies.
+
 ## 35.2.2
 
 ### Patch Changes
