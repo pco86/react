@@ -8,7 +8,7 @@ Use the UnderlineNav component to style navigation with a minimal underlined sel
 
 To use UnderlineNav with [react-router](https://github.com/ReactTraining/react-router) or
 [react-router-dom](https://www.npmjs.com/package/react-router-dom), pass
-`as={NavLink}` and omit the `selected` prop.
+`as={NavLink}`, omit the `selected` prop, and change the href prop to a to prop.
 This ensures that the NavLink gets `activeClassName='selected'`
 
 **Attention:** Make sure to properly label your `UnderlineNav` with an `aria-label` to provide context about the type of navigation contained in `UnderlineNav`.
